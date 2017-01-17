@@ -4,7 +4,7 @@ $(document).ready(function(){
     
     // 1. On line 7 use jQuery to change the text color of the h2 tags.
     $("#button1").click(function() {
-        alert("hi");
+        $('h2').css("color", "blue");
     });
     
     
