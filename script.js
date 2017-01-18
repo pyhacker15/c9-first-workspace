@@ -4,17 +4,19 @@ $(document).ready(function(){
     
     // 1. On line 7 use jQuery to change the text color of the h2 tags.
     $("#button1").click(function() {
-        $('h2').css("color", "blue");
+        $('h2').css("color", "black");
     });
     
     
     // 2. On line 13 use jQuery to append "I live in NYC" to the h2 tag with the id four.
     $("#button2").click(function() {
-
+        $("#four").append(" I live in NYC");
     });
     
     // 3a. Write a click function for the button with id button3.
     // 3b. Inside your button3 click function create an alert that asks the user "Are you sure you want to click this button?"
-    
+       $("#button3").click(function() {
+        alert("Are You Sure You Want to Click This Button?");
+    });
       
 });

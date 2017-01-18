@@ -2,15 +2,18 @@
 
 /* 1. Use the space below to change the background color of the page using the body tag */
 
-
+body { 
+ background-color: lightgrey;
+}
 
 
 
 /* 2a. Change the size of your image to 200px height and width*/
 /* 2b. Give image1 a border */
 #image1 {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
+    border: 2px black solid;
 }
 
 /* 3. Size image2 to make it twice as large as image1 */
@@ -24,16 +27,19 @@
 	border-radius: 4px;
 	border: thin solid #F0E020;
 	padding: 5px;
-	background-color: #F8F094;
+	background-color: blue;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 	font-weight: bold;
-	color: #663300;
+	color: white;
 	width: 75px;
 }
 
 /* 5. Use the space below to make all h2 tags your favorite color. */
 
-
+h2 { 
+  color: blue;	
+  text-align: center;
+}
 
 
 
@@ -47,3 +53,7 @@
 	padding: 10px;
 	text-align: center;
 }
+
+h1 { 
+  text-align: center;	
+} 
